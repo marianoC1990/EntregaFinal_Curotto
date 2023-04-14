@@ -3,10 +3,7 @@
     width: auto;
 
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;}
-
-@import "mixin"
-@import "nav
+@import "mixin";
+@import "nav";
+@import "bucles";
+@import "header";
