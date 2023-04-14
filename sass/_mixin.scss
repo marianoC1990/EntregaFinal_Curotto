@@ -1,0 +1,23 @@
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-col-center{
+    display: flex;
+    flex-direction: col;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:768px){
+    header{ @include flex-col-center;}
+    footer{ @include flex-col-center;}
+
+    
+}
+@media only screen and (min-width:  1024px) {
+    header{ @include flex-row-center;}
+    footer{ @include flex-row-center;}
+    
+}

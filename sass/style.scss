@@ -1,6 +1,12 @@
 .imgLogo{
     height: 100px;
     width: auto;
+
 }
-header{background-color: lightgray;}
-@import "formContact";
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+@import "mixin"
+@import "nav
