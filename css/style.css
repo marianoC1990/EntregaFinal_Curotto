@@ -205,4 +205,12 @@ h2:hover {
   border-radius: 5px;
 }
 
+.gradHead {
+  background-image: linear-gradient(to bottom, rgb(171, 168, 168), lightgrey);
+}
+
+.gradFoot {
+  background-image: linear-gradient(to top, rgb(171, 168, 168), lightgrey);
+}
+
 /*# sourceMappingURL=style.css.map */
