@@ -125,6 +125,17 @@ p {
   align-items: center;
 }
 
+h2, h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+img, p, h2 {
+  padding: 2%;
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -153,6 +164,44 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+footer a {
+  border-radius: 100px;
+  transition: all 1s;
+}
+
+footer a:hover {
+  font-size: 20px;
+  background-color: lightcoral;
+}
+
+li ul {
+  transition: all 1s;
+}
+
+ul li:hover {
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: darkgray;
+  border-radius: 5px;
+}
+
+h2 {
+  transition: all 2s;
+}
+
+h2:hover {
+  font-size: 250%;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
